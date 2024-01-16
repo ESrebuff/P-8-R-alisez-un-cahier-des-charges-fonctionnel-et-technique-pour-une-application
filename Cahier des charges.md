@@ -32,7 +32,11 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 
 ## Éléments hors périmètre
 
-- Gestion des retours et litiges
+- **Pas de Retours dans l'Application :** La gestion des retours de produits n'est pas incluse.
+
+- **Litiges non Couverts :** La résolution des litiges et des réclamations ne fait pas partie des fonctionnalités actuelles.
+
+- **Remboursement Hors Application :** Les politiques de remboursement pour les retours ne sont pas gérées dans LiVrai.
 
 ## Description fonctionnelle
 
