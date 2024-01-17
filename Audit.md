@@ -5,14 +5,20 @@
 L'application Livrai est conçue pour faciliter la gestion des livraisons. Elle s'inscrit dans le cadre de l'activité d'une entreprise de livraison, simplifiant les processus associés aux commandes, aux clients, et aux livraisons.
 
 ## Fonctionnalités
-### Générales
-- **Authentification :** Gestion de l'authentification avec prise en compte des rôles administrateurs et utilisateurs.
-- **Tableau de bord :** Affichage des livraisons à venir et passées, différenciées par statut.
-- **Gestion des utilisateurs :** Ajout de nouveaux clients avec des fonctionnalités d'édition et de suppression pour les administrateurs.
-
-### Commandes et Livraisons
-- **Nouvelle Livraison :** Permet aux utilisateurs d'initier de nouvelles livraisons en spécifiant le volume et le poids.
-- **Acceptation/Refus/Facturation :** Fonctionnalités réservées aux administrateurs pour gérer les livraisons en attente.
+- **Authentification :** 
+  * Connexion
+  * Déconnexion
+- **Livraisons :** 
+  * Faire une demande de livraison
+  * Visualiser l'état de la livraison
+  * Visualiser les commandes
+  * Accepter une livraison
+  * Refuser une livraison
+  * Facturer une livraison
+- **Gestion des comptes**
+  * Création de compte client
+  * Voir les clients
+![use case](audit-use-cases.png)
 
 ## Expérience Utilisateur
 L'expérience utilisateur actuelle présente des lacunes, notamment l'absence d'accès aux tarifs avant de passer une commande, l'absence du nom du produit commandé, et le manque d'informations sur les délais de livraison. De plus, les pages ne sont pas responsives, bien que la navigation soit facilitée par le faible volume d'informations sur chaque page.
@@ -30,7 +36,6 @@ L'expérience utilisateur actuelle présente des lacunes, notamment l'absence d'
 L'application suit une architecture MVC (Modèle-Vue-Contrôleur) avec des servlets Java pour la logique de contrôleur, des JSP pour la vue, et des classes Java pour les modèles de données.
 
 - Décrire et schématiser l’architecture technique de l’application.
-  - Inclure les versions de langages et de frameworks utilisées.
 
 ### Points Forts
 - Architecture MVC : La séparation des préoccupations est respectée avec l'utilisation du modèle MVC.
