@@ -35,7 +35,7 @@ L'expérience utilisateur actuelle présente des lacunes, notamment l'absence d'
 ### Architecture
 L'application suit une architecture MVC (Modèle-Vue-Contrôleur) avec des servlets Java pour la logique de contrôleur, des JSP pour la vue, et des classes Java pour les modèles de données.
 
-- Décrire et schématiser l’architecture technique de l’application.
+![Schéma de l’architecture technique](schema-architecture-technique.png)
 
 ### Points Forts
 - Architecture MVC : La séparation des préoccupations est respectée avec l'utilisation du modèle MVC.
@@ -48,7 +48,7 @@ L'application suit une architecture MVC (Modèle-Vue-Contrôleur) avec des servl
 - Framework Java EE : L'utilisation d'un framework Java EE comme Spring pourrait simplifier le développement et améliorer la maintenabilité.
 - Conditions de mot de passe peu strictes.
 - Absence de pages responsives.
-- Forte dépendance entre le frontend et le backend.
+- Forte dépendance entre le frontend (JSP) et le backend (servlets Java), limite la modularité et l'adaptabilité, car les modifications dans l'un entraînent souvent des ajustements dans l'autre.
 
 ## Conclusion
 En résumé, Livrai présente une base solide avec son architecture MVC et ses fonctionnalités administratives bien intégrées. Cependant, des lacunes significatives dans l'expérience utilisateur, la sécurité et la dépendance entre le frontend et le backend nécessitent une attention immédiate. Des améliorations ciblées dans ces domaines contribueront à renforcer l'efficacité et la modernité de l'application, assurant ainsi une meilleure satisfaction des utilisateurs.

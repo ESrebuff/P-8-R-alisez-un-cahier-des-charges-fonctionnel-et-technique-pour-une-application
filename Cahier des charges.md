@@ -62,6 +62,10 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 - **Description:** Permet au service commercial et au service de livraisons d'accéder à la facturation.
 - **Besoin client:** Simplifier le processus de facturation tout en assurant un suivi transparent des transactions.
 
+#### Gestion des Stocks
+- **Description:** Permet au service de livraisons de gérer et de suivre les niveaux de stock des produits.
+- **Besoin client:** Assurer la disponibilité des produits et optimiser la gestion des ressources pour une livraison efficace
+
 #### Historique des livraisons
 
 - **Description:** Fournit un accès à l'historique détaillé des livraisons pour les clients.
@@ -69,21 +73,35 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 
 ## Fonctionnement de l’application
 
-![use cases](use-cases.png)
+![Diagramme d'use cases](use-cases.png)
 
-- **Pour les Clients :**
+#### Fonctionnalités pour le Client
+- **Passer Commande :** Sélectionner et commander des produits ou services.
+- **Annuler une Commande :** Annuler une commande en cours avant son expédition.
+- **Créer un Compte :** S'inscrire pour accéder aux services offerts par LiVrai.
+- **Consulter l'Historique des Livraisons :** Voir un historique détaillé des livraisons précédentes.
+- **Consulter la Liste des Commandes :** Visualiser les commandes passées et en cours.
 
-- Création de Compte : Inscription facile.
-- Passation de Commande : Sélection rapide des produits.
-- Suivi des Livraisons : Localisation en temps réel.
-- Historique des Livraisons : Consultation détaillée.
-- Modification des Infos : Mise à jour des données personnelles.
+#### Fonctionnalités pour le Service Commercial
+- **Consulter la Liste des Clients :** Accéder à la liste complète des clients et à leurs détails.
+- **Vérifier le Paiement :** Confirmer les paiements des commandes des clients.
+- **Gérer les Informations du Compte Client :** Mettre à jour et maintenir les informations des comptes clients.
+- **Consulter l'Historique des Livraisons :** Accéder à l'historique des livraisons pour chaque client.
+- **Consulter la Liste des Commandes :** Visualiser les détails des commandes passées et en cours.
 
-- **Pour le Service Commercial :**
+#### Fonctionnalités pour le Service Livraison
+- **Consulter les Stocks :** Vérifier les niveaux de stock actuels pour une gestion efficace des ressources.
 
-- Admin des Infos Client : Gestion des données client.
-- **Pour le Service Commercial et le Service Livraisons :**
-- Gestion de la Facturation : Création et suivi des factures.
+#### Fonctionnalités pour les Services (Commercial et Livraison)
+- **Générer la Facturation :** Créer des factures pour les commandes, déclenchant l'envoi d'un email au client.
+
+#### Fonctionnalités Communes (Clients, Service Commercial, Service Livraison)
+- **Se Connecter :** Accès sécurisé à leur compte respectif.
+- **Se Déconnecter :** Option de se déconnecter de l'application pour la sécurité du compte.
+- **Réinitialiser le Mot de Passe :** Modifier le mot de passe, déclenchant l'envoi d'un email de réinitialisation.
+- **Suivre l'État de la Livraison :** Accès à des informations en temps réel sur le statut des livraisons.
+- **Modifier les Informations du Compte :** Mettre à jour les informations personnelles et de contact dans leurs comptes.
+
 
 # Impact Social
 
@@ -101,4 +119,46 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 
 ## Description technique
 
-Présenter l’ensemble des technologies utilisées en les justifiant. Inclure un diagramme de l’architecture de l’application.
+### Technologies Utilisées
+
+#### Frontend
+- **Angular :** Utilisé pour développer une Single Page Application (SPA) moderne et interactive. Angular offre une expérience utilisateur fluide, une meilleure performance, et facilite le développement d'interfaces utilisateur riches et dynamiques.
+
+#### Backend
+- **Java (Dernière version LTS) :** Choisi pour sa robustesse, sa sécurité, et sa portabilité. Java est largement utilisé pour le développement d'applications d'entreprise en raison de sa maturité, de son écosystème riche, et de son support communautaire étendu.
+
+#### Base de données
+- **MySQL :** Une base de données relationnelle choisie pour sa fiabilité, sa performance, et sa compatibilité avec Java. MySQL est idéale pour gérer les données transactionnelles et relationnelles de l'application.
+
+#### Serveur d'application
+- **Spring Boot :** Un framework pour simplifier le processus de configuration et de déploiement des applications Java. Il offre une intégration facile avec des bases de données et des services tiers, tout en supportant une architecture RESTful pour le backend.
+
+#### Sécurité
+- **Spring Security :** Pour la gestion de l'authentification et de l'autorisation, offrant des fonctionnalités robustes pour sécuriser l'application contre les menaces courantes.
+
+#### Intégration et déploiement continus
+- **Docker :** Utilisé pour containeriser l'application, ce qui facilite le déploiement, la mise à l'échelle et la gestion de l'environnement d'exécution.
+
+### Justification des Choix Technologiques
+
+- **Angular :** Permet une interaction client riche et une meilleure expérience utilisateur.
+- **Java :** Langage maîtrisé par l'équipe de développement, assurant une courbe d'apprentissage minimale et une maintenance aisée.
+- **MySQL :** Offre une gestion efficace des données et est largement adoptée dans l'industrie, ce qui en fait un choix fiable.
+- **Spring Boot & Spring Security :** Fournissent une base solide pour construire des applications sécurisées, bien structurées, et maintenables.
+- **Docker :** Assure une portabilité et une cohérence entre les environnements de développement, de test et de production.
+![Diagramme de classes](architecture.png)
+#### Avantages de l'Architecture Client-Serveur pour LiVrai :
+**Simplicité et Clarté**
+    - Structure intuitive qui simplifie le développement, le déploiement et le débogage.
+    - Séparation claire entre le frontend (Angular) et le backend (Java).
+**Centralisation de la Logique Métier**
+    - Toutes les opérations clés sont gérées de manière cohérente et centralisée sur le serveur.
+    - Facilite les mises à jour systématiques et la gestion des données.
+**Sécurité Renforcée**
+    - Le serveur agit comme un intermédiaire sécurisé entre le client et la base de données.
+    - Améliore la sécurité des données et la validation des requêtes.
+
+**Compatibilité avec les Technologies Requises**
+    -Parfaitement alignée avec Java pour le backend et Angular pour le frontend.
+
+![Diagramme de classes](diagramme-classes.png)
