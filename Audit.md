@@ -38,7 +38,7 @@ L'application suit une architecture MVC (Modèle-Vue-Contrôleur) avec des servl
 ![Schéma de l’architecture technique](schema-architecture-technique.png)
 
 ### Points Forts
-- Architecture MVC : La séparation des préoccupations est respectée avec l'utilisation du modèle MVC.
+- Architecture MVC : La séparation des responsabilités est respectée avec l'utilisation du modèle MVC.
 - Gestion des Utilisateurs : La gestion des utilisateurs, y compris l'authentification, est bien implémentée.
 - Fonctionnalités Administratives : Les fonctionnalités administratives telles que l'acceptation, le refus et la facturation des livraisons sont bien gérées.
 
