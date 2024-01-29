@@ -44,32 +44,48 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 
 #### Création de compte
 
-- **Description:** Permet aux clients et au service commercial de créer des comptes.
-- **Besoin client:** Offrir une méthode d'inscription pour accéder aux fonctionnalités de l'application.
+- **Description:** Permet aux clients de créer des comptes.
+- **Besoin client:** Permet aux clients de prendre le contrôle de leur expérience de service en s'inscrivant facilement. Cela réduit la dépendance vis-à-vis du service commercial et offre une flexibilité et une autonomie accrues pour les utilisateurs.
 
 #### Gestion des informations clients
 
 - **Description:** Permet aux clients et au service commercial de gérer les informations liées aux comptes.
-- **Besoin client:** Faciliter la mise à jour des données clients et assurer une gestion efficace par le service commercial.
+- **Besoin client:** Assure que les clients peuvent maintenir leurs informations à jour, ce qui est crucial pour la précision de la livraison et la communication. Cela améliore également la relation client en rendant le service plus personnalisé et réactif.
 
 #### Commande et suivi des livraisons
 
 - **Description:** Permet aux clients de passer des commandes et de suivre l'état des livraisons en temps réel.
-- **Besoin client:** Autonomiser les clients dans le processus de commande et fournir une visibilité sur les livraisons.
+- **Besoin client:** Offre une transparence totale et un contrôle sur le processus de commande et de livraison. Les clients peuvent planifier et ajuster leur emploi du temps en fonction de leurs commandes, sécurisant ainsi la réception des colis et améliorant ainsi leur satisfaction globale.
 
 #### Gestion de la facturation
 
 - **Description:** Permet au service commercial et au service de livraisons d'accéder à la facturation.
-- **Besoin client:** Simplifier le processus de facturation tout en assurant un suivi transparent des transactions.
+- **Besoin client:** Simplifier le processus de facturation et offre une visibilité claire sur les coûts et les paiements. Cela réduit les éventuels malentendus ou litiges liés à la facturation, améliorant ainsi la confiance des clients.
 
 #### Gestion des Stocks
 - **Description:** Permet au service de livraisons de gérer et de suivre les niveaux de stock des produits.
-- **Besoin client:** Assurer la disponibilité des produits et optimiser la gestion des ressources pour une livraison efficace
+- **Besoin client:** Assure que les clients sont informés de la disponibilité des produits, permettant une planification et une commande plus précises. Cela contribue à éviter les déceptions liées à des commandes non satisfaites et améliore l'efficacité opérationnelle.
 
 #### Historique des livraisons
 
 - **Description:** Fournit un accès à l'historique détaillé des livraisons pour les clients.
-- **Besoin client:** Offrir une référence pratique pour les clients afin de suivre et de rappeler les livraisons antérieures.
+- **Besoin client:** Permet aux clients de revoir leurs commandes précédentes pour une meilleure gestion de leurs achats et une facilité de réapprovisionnement. Cela contribue également à bâtir une relation transparente et de confiance avec les clients.
+
+#### Consulter la Liste des Commandes
+
+- **Description:** Permet aux clients et au service commercial de visualiser les commandes passées et en cours.
+- **Besoin client:** Offre une vue d'ensemble et un suivi facile des commandes, permettant aux clients de planifier et de gérer leurs besoins en livraison. Pour le service commercial, cela permet une meilleure gestion des commandes et une réponse rapide aux demandes des clients.
+
+#### Consulter la Liste des Clients
+
+- **Description:** Donne accès au service commercial à la liste complète des clients, incluant les détails de leurs comptes.
+- **Besoin client:** Facilite une approche personnalisée et ciblée dans la relation client, permettant au service commercial de mieux comprendre et répondre aux besoins spécifiques de chaque client.
+
+
+#### Vérifier le Paiement
+
+- **Description:** Permet au service commercial de confirmer les paiements effectués par les clients pour leurs commandes.
+- **Besoin client:** Assure une gestion financière transparente et fiable. Cela contribue à renforcer la confiance des clients envers LiVrai en garantissant que leurs transactions sont traitées de manière sécurisée et efficace.
 
 ## Fonctionnement de l’application
 
