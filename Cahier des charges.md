@@ -77,7 +77,6 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 
 #### Fonctionnalités pour le Client
 - **Passer Commande :** Sélectionner et commander des produits ou services.
-- **Annuler une Commande :** Annuler une commande en cours avant son expédition.
 - **Créer un Compte :** S'inscrire pour accéder aux services offerts par LiVrai.
 - **Consulter l'Historique des Livraisons :** Voir un historique détaillé des livraisons précédentes.
 - **Consulter la Liste des Commandes :** Visualiser les commandes passées et en cours.
@@ -101,7 +100,7 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 - **Réinitialiser le Mot de Passe :** Modifier le mot de passe, déclenchant l'envoi d'un email de réinitialisation.
 - **Suivre l'État de la Livraison :** Accès à des informations en temps réel sur le statut des livraisons.
 - **Modifier les Informations du Compte :** Mettre à jour les informations personnelles et de contact dans leurs comptes.
-
+- **Annuler une Commande :** Annuler une commande en cours avant son expédition.
 
 # Impact Social
 
