@@ -57,10 +57,10 @@ La réussite du projet sera mesurée par la capacité de l'application à permet
 - **Description:** Permet aux clients de passer des commandes et de suivre l'état des livraisons en temps réel.
 - **Besoin client:** Offre une transparence totale et un contrôle sur le processus de commande et de livraison. Les clients peuvent planifier et ajuster leur emploi du temps en fonction de leurs commandes, sécurisant ainsi la réception des colis et améliorant ainsi leur satisfaction globale.
 
-#### Gestion de la facturation
+#### Générer la facturation
 
-- **Description:** Permet au service commercial et au service de livraisons d'accéder à la facturation.
-- **Besoin client:** Simplifier le processus de facturation et offre une visibilité claire sur les coûts et les paiements. Cela réduit les éventuels malentendus ou litiges liés à la facturation, améliorant ainsi la confiance des clients.
+- **Description:** Permet au service commercial et au service de livraison de générer et d'envoyer une facture.
+- **Besoin client:** Simplifier le processus de facturation. Ce qui augmente la performance des services, leur permettant ainsi de faire plus de traitements grace à cette automatisation.
 
 #### Gestion des Stocks
 - **Description:** Permet au service de livraisons de gérer et de suivre les niveaux de stock des produits.
